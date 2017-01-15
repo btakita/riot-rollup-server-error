@@ -10,13 +10,15 @@
     "node": "7.4.0"
   },
   "scripts": {
+    "build": "rollup -c",
+    "start": "node dist/index"
   },
   "keywords": [
     "riot rollup server"
   ],
   "dependencies": {
     "riot": "3.0.7",
-    "rollup": "0.41.3"
+    "rollup": "0.41.4"
   },
   "devDependencies": {
   },
